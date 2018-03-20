@@ -5,7 +5,7 @@ templates:
   A4 portrait JSON demo: !template
     reportTemplate: json_demo_main.jrxml
     attributes:
-      additional_information_json: !string {}
+      additional_information_json: !json {}
     processors:
       - !reportBuilder
         directory: '.'
